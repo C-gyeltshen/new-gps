@@ -14,15 +14,23 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.14",
+    "@neondatabase/serverless": "^1.1.0",
+    "@prisma/adapter-neon": "^7.8.0",
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
+    "bcryptjs": "^3.0.3",
     "dotenv": "^17.4.2",
     "hono": "^4.12.21",
-    "pg": "^8.21.0"
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.21.0",
+    "ws": "^8.21.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20.19.41",
     "@types/pg": "^8.20.0",
+    "@types/ws": "^8.18.1",
     "prisma": "^7.8.0",
     "tsx": "^4.22.3",
     "typescript": "^5.9.3"

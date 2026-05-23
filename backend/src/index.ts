@@ -4,10 +4,46 @@ import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { streamSSE } from 'hono/streaming'
 import { PrismaClient } from '../generated/prisma/client.js'
-import { PrismaPg } from '@prisma/adapter-pg'
+import { PrismaNeon } from '@prisma/adapter-neon'
+import { neon, neonConfig } from '@neondatabase/serverless'
+import ws from 'ws'
+import bcrypt from 'bcryptjs'
+import jwt from 'jsonwebtoken'
+import { randomBytes, randomUUID } from 'crypto'
 
-const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! })
+const JWT_SECRET = process.env.JWT_SECRET!
+if (!JWT_SECRET) throw new Error('JWT_SECRET is required')
+
+// Use WebSocket (port 443) instead of raw TCP (port 5432).
+// Required for environments where port 5432 is ISP-blocked.
+neonConfig.webSocketConstructor = ws
+
+const databaseUrl = process.env.DATABASE_URL
+if (!databaseUrl) throw new Error('DATABASE_URL is required')
+
+const adapter = new PrismaNeon({ connectionString: databaseUrl })
 const prisma = new PrismaClient({ adapter })
+
+// HTTP-based raw SQL client (port 443, no WebSocket needed)
+const sql = neon(databaseUrl)
+
+async function ensureResetTokenTable() {
+  try {
+    await sql`
+      CREATE TABLE IF NOT EXISTS password_reset_tokens (
+        id          TEXT PRIMARY KEY,
+        user_id     TEXT NOT NULL,
+        token       TEXT UNIQUE NOT NULL,
+        expires_at  TIMESTAMPTZ NOT NULL,
+        used        BOOLEAN DEFAULT FALSE NOT NULL,
+        created_at  TIMESTAMPTZ DEFAULT NOW() NOT NULL
+      )
+    `
+    console.log('[DB] password_reset_tokens table ready')
+  } catch (err) {
+    console.error('[DB] Could not create password_reset_tokens table:', err)
+  }
+}
 
 // In-memory pub/sub: vehicleNumber -> set of callbacks
 type Callback = (data: unknown) => void
@@ -48,6 +84,48 @@ app.get('/', (c) => {
 
 app.get('/health', (c) => c.json({ ok: true }))
 
+function errorValues(err: unknown): string[] {
+  if (!err || typeof err !== 'object') return []
+  const error = err as { code?: unknown; message?: unknown; cause?: unknown }
+  return [
+    error.code,
+    error.message,
+    ...errorValues(error.cause),
+  ].filter((value): value is string => typeof value === 'string')
+}
+
+function isRetryableDbError(err: unknown): boolean {
+  return errorValues(err).some((value) => {
+    const normalized = value.toLowerCase()
+    return [
+      'etimedout',
+      'econnreset',
+      'econnrefused',
+      'connection terminated',
+      'connection timeout',
+      'terminating connection',
+      'socket closed',
+    ].some((retryable) => normalized.includes(retryable))
+  })
+}
+
+// Retry wrapper for Neon cold-start: compute can take several seconds to wake.
+async function dbRetry<T>(fn: () => Promise<T>): Promise<T> {
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      return await fn()
+    } catch (err: any) {
+      console.error(`[DB] attempt ${attempt} failed: ${errorValues(err)[0] ?? err}`)
+      if (attempt < 3 && isRetryableDbError(err)) {
+        await new Promise(r => setTimeout(r, 5000))
+        continue
+      }
+      throw err
+    }
+  }
+  throw new Error('unreachable')
+}
+
 // Shared core — used by both GET and POST handlers
 async function saveLocation(
   vehicleId: unknown, lat: unknown, lng: unknown,
@@ -61,21 +139,25 @@ async function saveLocation(
   if (latN < -90 || latN > 90)   return { error: 'lat out of range [-90, 90]', status: 400 }
   if (lngN < -180 || lngN > 180) return { error: 'lng out of range [-180, 180]', status: 400 }
 
-  const vehicle = await prisma.vehicle.upsert({
-    where: { vehicleNumber: vehicleId },
-    create: { vehicleNumber: vehicleId },
-    update: {},
-  })
+  const { location } = await dbRetry(() => prisma.$transaction(async (tx) => {
+    const vehicle = await tx.vehicle.upsert({
+      where: { vehicleNumber: vehicleId as string },
+      create: { vehicleNumber: vehicleId as string },
+      update: {},
+    })
 
-  const location = await prisma.location.create({
-    data: {
-      vehicleId: vehicle.id,
-      latitude: latN,
-      longitude: lngN,
-      speed:    (speed    != null && speed    !== '') ? Number(speed)    : null,
-      heading:  (heading  != null && heading  !== '') ? Number(heading)  : null,
-    },
-  })
+    const location = await tx.location.create({
+      data: {
+        vehicleId: vehicle.id,
+        latitude: latN,
+        longitude: lngN,
+        speed:    (speed    != null && speed    !== '') ? Number(speed)    : null,
+        heading:  (heading  != null && heading  !== '') ? Number(heading)  : null,
+      },
+    })
+
+    return { location }
+  }))
 
   publish(vehicleId, {
     latitude:   latN,
@@ -243,8 +325,104 @@ app.get('/api/vehicles/:vehicleNumber/stream', (c) => {
   })
 })
 
+// ── Auth ──────────────────────────────────────────────────────────────────────
+
+app.post('/auth/signup', async (c) => {
+  let body: Record<string, unknown>
+  try { body = await c.req.json() } catch { return c.json({ error: 'Invalid JSON' }, 400) }
+
+  const { email, password, name } = body as Record<string, string>
+  if (!email || !password) return c.json({ error: 'Email and password required' }, 400)
+  if (password.length < 6) return c.json({ error: 'Password must be at least 6 characters' }, 400)
+
+  const normalized = email.toLowerCase().trim()
+  const existing = await dbRetry(() => prisma.user.findUnique({ where: { email: normalized } }))
+  if (existing) return c.json({ error: 'Email already registered' }, 409)
+
+  const passwordHash = await bcrypt.hash(password, 10)
+  const user = await dbRetry(() =>
+    prisma.user.create({ data: { email: normalized, name: name?.trim() || null, passwordHash } })
+  )
+
+  const token = jwt.sign({ userId: user.id, email: user.email, name: user.name }, JWT_SECRET, { expiresIn: '7d' })
+  return c.json({ ok: true, token, user: { id: user.id, email: user.email, name: user.name } })
+})
+
+app.post('/auth/login', async (c) => {
+  let body: Record<string, unknown>
+  try { body = await c.req.json() } catch { return c.json({ error: 'Invalid JSON' }, 400) }
+
+  const { email, password } = body as Record<string, string>
+  if (!email || !password) return c.json({ error: 'Email and password required' }, 400)
+
+  const normalized = email.toLowerCase().trim()
+  const user = await dbRetry(() => prisma.user.findUnique({ where: { email: normalized } }))
+  if (!user) return c.json({ error: 'Invalid email or password' }, 401)
+
+  const valid = await bcrypt.compare(password, user.passwordHash)
+  if (!valid) return c.json({ error: 'Invalid email or password' }, 401)
+
+  const token = jwt.sign({ userId: user.id, email: user.email, name: user.name }, JWT_SECRET, { expiresIn: '7d' })
+  return c.json({ ok: true, token, user: { id: user.id, email: user.email, name: user.name } })
+})
+
+app.post('/auth/forgot-password', async (c) => {
+  let body: Record<string, unknown>
+  try { body = await c.req.json() } catch { return c.json({ error: 'Invalid JSON' }, 400) }
+
+  const { email } = body as Record<string, string>
+  if (!email) return c.json({ error: 'Email required' }, 400)
+
+  const normalized = email.toLowerCase().trim()
+  const user = await dbRetry(() => prisma.user.findUnique({ where: { email: normalized } }))
+
+  if (user) {
+    // Invalidate any existing unused tokens for this user
+    await sql`UPDATE password_reset_tokens SET used = TRUE WHERE user_id = ${user.id} AND used = FALSE`
+
+    const token = randomBytes(32).toString('hex')
+    const expiresAt = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
+    await sql`
+      INSERT INTO password_reset_tokens (id, user_id, token, expires_at)
+      VALUES (${randomUUID()}, ${user.id}, ${token}, ${expiresAt.toISOString()})
+    `
+
+    const frontendUrl = process.env.FRONTEND_URL ?? 'http://localhost:3000'
+    const resetUrl = `${frontendUrl}/reset-password?token=${token}`
+    console.log(`\n[PASSWORD RESET] Link for ${normalized}:\n  ${resetUrl}\n`)
+  }
+
+  // Always the same response — prevents email enumeration
+  return c.json({ ok: true })
+})
+
+app.post('/auth/reset-password', async (c) => {
+  let body: Record<string, unknown>
+  try { body = await c.req.json() } catch { return c.json({ error: 'Invalid JSON' }, 400) }
+
+  const { token, password } = body as Record<string, string>
+  if (!token || !password) return c.json({ error: 'Token and password required' }, 400)
+  if (password.length < 6) return c.json({ error: 'Password must be at least 6 characters' }, 400)
+
+  const rows = await sql`SELECT * FROM password_reset_tokens WHERE token = ${token} LIMIT 1`
+  const record = rows[0] as { id: string; user_id: string; expires_at: string; used: boolean } | undefined
+
+  if (!record) return c.json({ error: 'Invalid or expired reset link' }, 400)
+  if (record.used) return c.json({ error: 'This reset link has already been used' }, 400)
+  if (new Date(record.expires_at) < new Date()) return c.json({ error: 'Reset link has expired' }, 400)
+
+  const passwordHash = await bcrypt.hash(password, 10)
+  await dbRetry(() => prisma.user.update({ where: { id: record.user_id }, data: { passwordHash } }))
+  await sql`UPDATE password_reset_tokens SET used = TRUE WHERE id = ${record.id}`
+
+  return c.json({ ok: true, message: 'Password updated successfully' })
+})
+
+// ── Server ─────────────────────────────────────────────────────────────────────
+
 const port = parseInt(process.env.PORT ?? '3001', 10)
 
-serve({ fetch: app.fetch, port }, (info) => {
+serve({ fetch: app.fetch, port }, async (info) => {
   console.log(`GPS backend running on http://localhost:${info.port}`)
+  await ensureResetTokenTable()
 })

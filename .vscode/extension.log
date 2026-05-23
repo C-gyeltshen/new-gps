@@ -1519,3 +1519,21 @@ Failed uploading: uploading error: exit status 1
 	at ChildProcess.emit (node:events:531:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
 	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 03:51:34.182][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-24 03:51:34.182][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-24 03:51:34.183][INFO] 刷新板卡列表...
+[2026-05-24 03:51:34.183][INFO] 获取板卡列表...
+[2026-05-24 03:51:34.184][INFO] 获取板卡列表...
+[2026-05-24 03:51:34.187][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-24 03:51:34.190][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-24 03:51:35.705][INFO] 找到 4 个端口
+[2026-05-24 03:51:35.707][INFO] 获取所有已安装的板卡...
+[2026-05-24 03:51:35.707][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-24 03:51:35.710][INFO] 找到 4 个端口
+[2026-05-24 03:51:35.710][INFO] 获取所有已安装的板卡...
+[2026-05-24 03:51:35.710][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-24 03:51:35.884][INFO] 找到 0 个已安装的板卡
+[2026-05-24 03:51:35.887][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-24 03:51:35.891][INFO] 找到 0 个已安装的板卡
+[2026-05-24 03:51:35.891][INFO] 加载了 0 个平台，4 个端口
+[2026-05-24 03:51:35.893][INFO] 从内存缓存获取板卡详情: arduino:avr:uno

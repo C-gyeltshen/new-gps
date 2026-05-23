@@ -5,7 +5,26 @@ import { cors } from 'hono/cors';
 import { streamSSE } from 'hono/streaming';
 import { PrismaClient } from '../generated/prisma/client.js';
 import { PrismaPg } from '@prisma/adapter-pg';
-const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
+import { Pool } from 'pg';
+const databaseUrl = process.env.DATABASE_URL;
+if (!databaseUrl)
+    throw new Error('DATABASE_URL is required');
+const parsedDatabaseUrl = new URL(databaseUrl);
+parsedDatabaseUrl.searchParams.delete('channel_binding');
+// pg currently treats sslmode=require as verify-full and warns that this will
+// change in pg v9. Make that secure behavior explicit and silence the warning.
+if (parsedDatabaseUrl.searchParams.get('sslmode') === 'require') {
+    parsedDatabaseUrl.searchParams.set('sslmode', 'verify-full');
+}
+const pool = new Pool({
+    connectionString: parsedDatabaseUrl.toString(),
+    connectionTimeoutMillis: 30000,
+    idleTimeoutMillis: 60000,
+    keepAlive: true,
+    max: 5,
+});
+pool.on('error', (err) => console.error('[DB pool error]', err.message));
+const adapter = new PrismaPg(pool);
 const prisma = new PrismaClient({ adapter });
 const subscribers = new Map();
 function subscribe(vehicleNumber, cb) {
@@ -37,6 +56,47 @@ app.get('/', (c) => {
     });
 });
 app.get('/health', (c) => c.json({ ok: true }));
+function errorValues(err) {
+    if (!err || typeof err !== 'object')
+        return [];
+    const error = err;
+    return [
+        error.code,
+        error.message,
+        ...errorValues(error.cause),
+    ].filter((value) => typeof value === 'string');
+}
+function isRetryableDbError(err) {
+    return errorValues(err).some((value) => {
+        const normalized = value.toLowerCase();
+        return [
+            'etimedout',
+            'econnreset',
+            'econnrefused',
+            'connection terminated',
+            'connection timeout',
+            'terminating connection',
+            'socket closed',
+        ].some((retryable) => normalized.includes(retryable));
+    });
+}
+// Retry wrapper for Neon cold-start: compute can take several seconds to wake.
+async function dbRetry(fn) {
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            return await fn();
+        }
+        catch (err) {
+            console.error(`[DB] attempt ${attempt} failed: ${errorValues(err)[0] ?? err}`);
+            if (attempt < 3 && isRetryableDbError(err)) {
+                await new Promise(r => setTimeout(r, 5000));
+                continue;
+            }
+            throw err;
+        }
+    }
+    throw new Error('unreachable');
+}
 // Shared core — used by both GET and POST handlers
 async function saveLocation(vehicleId, lat, lng, speed, altitude, satellites, heading) {
     if (!vehicleId || typeof vehicleId !== 'string')
@@ -48,20 +108,23 @@ async function saveLocation(vehicleId, lat, lng, speed, altitude, satellites, he
         return { error: 'lat out of range [-90, 90]', status: 400 };
     if (lngN < -180 || lngN > 180)
         return { error: 'lng out of range [-180, 180]', status: 400 };
-    const vehicle = await prisma.vehicle.upsert({
-        where: { vehicleNumber: vehicleId },
-        create: { vehicleNumber: vehicleId },
-        update: {},
-    });
-    const location = await prisma.location.create({
-        data: {
-            vehicleId: vehicle.id,
-            latitude: latN,
-            longitude: lngN,
-            speed: (speed != null && speed !== '') ? Number(speed) : null,
-            heading: (heading != null && heading !== '') ? Number(heading) : null,
-        },
-    });
+    const { location } = await dbRetry(() => prisma.$transaction(async (tx) => {
+        const vehicle = await tx.vehicle.upsert({
+            where: { vehicleNumber: vehicleId },
+            create: { vehicleNumber: vehicleId },
+            update: {},
+        });
+        const location = await tx.location.create({
+            data: {
+                vehicleId: vehicle.id,
+                latitude: latN,
+                longitude: lngN,
+                speed: (speed != null && speed !== '') ? Number(speed) : null,
+                heading: (heading != null && heading !== '') ? Number(heading) : null,
+            },
+        });
+        return { location };
+    }));
     publish(vehicleId, {
         latitude: latN,
         longitude: lngN,

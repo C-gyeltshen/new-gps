@@ -1,26 +1,30 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Bhutan flag: saffron orange (top half) + dragon crimson (bottom half) */
+  --crimson:       #B22222;
+  --crimson-dark:  #7A0000;
+  --crimson-light: #FFF0F0;
+  --saffron:       #EF6C00;
+  --saffron-dark:  #C45000;
+  --saffron-light: #FFF3E0;
+
+  /* legacy aliases so existing code keeps working */
+  --navy:        var(--crimson);
+  --navy-dark:   var(--crimson-dark);
+  --navy-light:  var(--crimson-light);
+  --orange:      var(--saffron);
+  --orange-dark: var(--saffron-dark);
+  --orange-light:var(--saffron-light);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: #FBF5EF;
+  color: var(--crimson-dark);
   font-family: Arial, Helvetica, sans-serif;
 }
