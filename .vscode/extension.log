@@ -1,0 +1,1521 @@
+
+======================================================================
+[2026-05-23 21:16:22.656] Arduino Extension 启动 (v0.2.1)
+  平台: darwin arm64
+  VS Code: 1.121.0
+  Node: v22.22.1
+======================================================================
+[2026-05-23 21:16:22.656][INFO] 板卡缓存目录: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli
+[2026-05-23 21:16:22.657][INFO] [BoardListHistory] 已初始化，加载了 0 个板卡记录，0 个端口记录
+[2026-05-23 21:16:22.657][INFO] [BuildOutputWebview] 编译日志缓存路径: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.vscode/build-output.log
+[2026-05-23 21:16:22.657][INFO] 刷新板卡列表...
+[2026-05-23 21:16:22.657][INFO] 获取板卡列表...
+[2026-05-23 21:16:22.657][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.659][INFO] 刷新板卡管理器...
+[2026-05-23 21:16:22.659][INFO] 创建板卡缓存目录: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli
+[2026-05-23 21:16:22.660][INFO] 获取已安装的平台列表...
+[2026-05-23 21:16:22.660][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.660][INFO] 获取已安装库列表...
+[2026-05-23 21:16:22.660][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.664][INFO] 已注册调试命令
+[2026-05-23 21:16:22.665][INFO] 正在检测 Arduino CLI...
+[2026-05-23 21:16:22.665][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.666][INFO] Arduino CLI 插件激活完成
+[2026-05-23 21:16:22.678][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.678][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:16:22.679][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.680][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.680][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:16:22.680][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.681][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.681][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:16:22.681][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.683][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.683][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:16:22.683][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.692][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.692][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:16:22.692][ERROR] 获取平台列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:16:22.693][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.693][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:16:22.693][WARN] Arduino CLI 未找到
+[2026-05-23 21:16:22.693][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.693][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:16:22.693][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:16:22.693][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:16:22.693][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.694][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.694][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:16:22.694][ERROR] 获取已安装库列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:16:22.698][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.698][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:16:22.698][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:16:22.703][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:16:22.703][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:16:22.703][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:16:22.703][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 21:16:28.484][INFO] 已创建 Copilot 指令文件: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.github/copilot-instructions.md
+[2026-05-23 21:18:13.320][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.325][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.325][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:18:13.325][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.328][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.329][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:18:13.330][INFO] 获取板卡列表...
+[2026-05-23 21:18:13.330][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.331][INFO] 获取已安装的平台列表...
+[2026-05-23 21:18:13.331][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.331][INFO] 获取已安装库列表...
+[2026-05-23 21:18:13.331][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.334][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.334][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:18:13.334][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.335][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.335][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:18:13.335][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.336][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.336][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:18:13.336][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.338][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.338][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:18:13.338][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:18:13.339][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:18:13.339][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.339][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.339][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:18:13.340][ERROR] 获取已安装库列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:18:13.340][INFO] 搜索库: (全部)...
+[2026-05-23 21:18:13.340][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.340][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.340][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:18:13.340][ERROR] 获取平台列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:18:13.340][INFO] 搜索平台（全部）...
+[2026-05-23 21:18:13.341][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.342][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.342][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:18:13.342][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.343][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.343][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:18:13.343][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.344][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.344][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:18:13.344][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:18:13.345][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.345][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:18:13.345][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:18:13.345][INFO] 加载了 0 个平台，0 个端口
+[2026-05-23 21:18:13.346][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.346][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:18:13.347][ERROR] 搜索库失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:18:13.347][INFO] 加载了 0 个库
+[2026-05-23 21:18:13.347][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:18:13.347][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:18:13.347][ERROR] 搜索平台失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:18:13.347][INFO] 加载了 0 个平台
+[2026-05-23 21:23:20.818][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.839][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.839][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.839][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.844][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.844][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.952][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.956][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.956][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.956][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.961][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.961][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.962][INFO] 获取板卡列表...
+[2026-05-23 21:23:20.962][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.962][INFO] 获取已安装的平台列表...
+[2026-05-23 21:23:20.962][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.963][INFO] 获取已安装库列表...
+[2026-05-23 21:23:20.963][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.966][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.967][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.967][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.967][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.967][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.967][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.968][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.968][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.968][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.970][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.970][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.971][ERROR] 获取平台列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:23:20.971][INFO] 搜索平台（全部）...
+[2026-05-23 21:23:20.971][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.972][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.972][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.972][ERROR] 获取已安装库列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:23:20.972][INFO] 搜索库: (全部)...
+[2026-05-23 21:23:20.972][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.972][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.972][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.972][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:23:20.973][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:23:20.973][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.975][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.975][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.975][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.976][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.976][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.976][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.977][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.977][INFO] 开始自动检测 Arduino CLI...
+[2026-05-23 21:23:20.977][INFO] 验证 Arduino CLI 路径: arduino-cli
+[2026-05-23 21:23:20.979][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.979][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.979][ERROR] 搜索平台失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:23:20.979][INFO] 加载了 0 个平台
+[2026-05-23 21:23:20.980][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.980][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.980][ERROR] 搜索库失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:23:20.980][INFO] 加载了 0 个库
+[2026-05-23 21:23:20.982][WARN] Arduino CLI 路径无效: arduino-cli, 错误: 命令执行失败 (退出码: 127): /bin/sh: arduino-cli: command not found
+
+[2026-05-23 21:23:20.982][WARN] 未能自动检测到 Arduino CLI
+[2026-05-23 21:23:20.982][ERROR] 获取板卡列表失败: CliNotReadyError: Arduino CLI 未配置或路径无效，请先执行 "Arduino: Configure CLI Path"
+[2026-05-23 21:23:20.982][INFO] 加载了 0 个平台，0 个端口
+[2026-05-23 21:23:27.362][INFO] Starting CLI download from WebView
+[2026-05-23 21:23:27.363][INFO] 正在停止所有 Arduino CLI 进程...
+[2026-05-23 21:23:27.364][INFO] 所有 CLI 进程已停止
+[2026-05-23 21:23:27.365][INFO] 开始下载 Arduino CLI...
+[2026-05-23 21:23:27.365][INFO] 平台: darwin-arm64
+[2026-05-23 21:23:27.365][INFO] 下载 URL: https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_macOS_ARM64.tar.gz
+[2026-05-23 21:23:27.365][INFO] 安装目录: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli
+[2026-05-23 21:23:29.662][INFO] 重定向到: https://downloads.arduino.cc/arduino-cli/arduino-cli_1.5.0_macOS_ARM64.tar.gz
+[2026-05-23 21:23:32.144][INFO] 解压文件: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/download.tar.gz -> /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli
+[2026-05-23 21:23:32.264][INFO] 已设置可执行权限: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:23:33.858][INFO] Arduino CLI 1.5.0 安装成功: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:23:34.087][INFO] CLI 路径缓存已重置
+[2026-05-23 21:23:34.087][INFO] 验证 Arduino CLI 路径: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:23:34.104][INFO] Arduino CLI 验证成功: v1.5.0
+[2026-05-23 21:23:34.104][INFO] CLI downloaded and installed successfully: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:23:43.589][INFO] Arduino 项目初始化成功: gps.ino
+[2026-05-23 21:24:38.261][INFO] 获取板卡列表...
+[2026-05-23 21:24:38.261][INFO] 获取已安装的平台列表...
+[2026-05-23 21:24:38.261][INFO] 获取已安装库列表...
+[2026-05-23 21:24:38.262][INFO] 已创建项目本地 Arduino CLI 配置目录: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli
+[2026-05-23 21:24:38.263][INFO] 使用全局共享下载目录: /Users/chimigyeltshen/.arduino-cli-shared/downloads
+[2026-05-23 21:24:38.265][INFO] 已创建/更新项目本地 Arduino CLI 配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/arduino-cli.yaml
+[2026-05-23 21:24:38.266][INFO] 库目录: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/user/libraries
+[2026-05-23 21:24:38.266][INFO] 下载目录: /Users/chimigyeltshen/.arduino-cli-shared/downloads
+[2026-05-23 21:24:38.266][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:24:38.267][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:24:38.269][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:24:46.880][INFO] 找到 0 个已安装的平台
+[2026-05-23 21:24:46.881][INFO] 搜索平台（全部）...
+[2026-05-23 21:24:46.881][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core search --format json
+[2026-05-23 21:24:47.293][INFO] 找到 0 个已安装的库
+[2026-05-23 21:24:47.293][INFO] 搜索库: (全部)...
+[2026-05-23 21:24:47.293][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search --format json
+[2026-05-23 21:24:49.282][INFO] 获取已安装的平台列表...
+[2026-05-23 21:24:49.282][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:24:49.449][INFO] 找到 0 个已安装的平台
+[2026-05-23 21:24:49.450][INFO] 找到 36 个可用平台
+[2026-05-23 21:24:49.450][INFO] 加载了 36 个平台
+[2026-05-23 21:24:50.186][INFO] 找到 5 个端口
+[2026-05-23 21:24:50.186][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:24:50.186][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:24:50.512][INFO] 获取已安装库列表...
+[2026-05-23 21:24:50.512][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:24:50.517][INFO] 找到 0 个已安装的板卡
+[2026-05-23 21:24:50.517][INFO] 加载了 0 个平台，5 个端口
+[2026-05-23 21:24:50.681][INFO] 找到 0 个已安装的库
+[2026-05-23 21:24:50.704][INFO] 搜索到 9434 个库
+[2026-05-23 21:24:50.711][INFO] 加载了 9434 个库
+[2026-05-23 21:25:11.095][INFO] 获取板卡列表...
+[2026-05-23 21:25:11.096][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:25:12.945][INFO] 找到 5 个端口
+[2026-05-23 21:25:12.945][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:25:12.945][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:25:13.108][INFO] 找到 0 个已安装的板卡
+[2026-05-23 21:25:13.109][INFO] 加载了 0 个平台，5 个端口
+[2026-05-23 21:25:25.220][INFO] 安装平台: arduino:avr@1.8.8...
+[2026-05-23 21:25:25.223][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli config set network.connection_timeout 600s
+[2026-05-23 21:25:25.346][INFO] 已设置 CLI 配置: network.connection_timeout = 600s
+[2026-05-23 21:25:25.346][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core install arduino:avr@1.8.8
+[2026-05-23 21:25:43.069][FATAL] [Global] 未处理的 Promise Rejection: ENOENT: no such file or directory, stat '/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/data/tmp/package-3828403944/avr/avr/include/avr/iox128c3.h'
+  Stack: Error: ENOENT: no such file or directory, stat '/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/data/tmp/package-3828403944/avr/avr/include/avr/iox128c3.h'
+	at statSync (node:fs:1747:25)
+	at t.statSync (node:electron/js2c/node_init:2:5460)
+	at cp.value (/Users/chimigyeltshen/.vscode/extensions/ms-vscode.cpptools-1.32.2-darwin-arm64/dist/src/main.js:80413:42)
+	at E._deliver (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at cp.value (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:530:127209)
+	at E._deliver (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E._deliverQueue (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3333)
+	at E.fire (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3667)
+	at Cw.$onFileEvent (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:530:129932)
+	at i._doInvokeHandler (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:157650)
+	at i._invokeHandler (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:157398)
+	at i._receiveRequest (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:156180)
+	at i._receiveOneMessage (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:155018)
+	at cp.value (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:153093)
+	at E._deliver (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ss.fire (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at cp.value (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:9911)
+	at E._deliver (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ss.fire (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+[2026-05-23 21:25:44.008][INFO] 平台 arduino:avr@1.8.8 安装成功
+[2026-05-23 21:25:44.009][INFO] 平台 arduino:avr 安装成功
+[2026-05-23 21:25:44.009][INFO] 获取已安装的平台列表...
+[2026-05-23 21:25:44.009][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:25:44.161][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:25:44.161][INFO] 平台依赖文件已保存: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino_platforms.txt
+[2026-05-23 21:25:44.162][INFO] 平台依赖记录已更新: arduino:avr==1.8.8
+[2026-05-23 21:25:44.162][INFO] 获取已安装的平台列表...
+[2026-05-23 21:25:44.162][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:25:44.315][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:25:44.315][INFO] 搜索平台（全部）...
+[2026-05-23 21:25:44.315][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core search --format json
+[2026-05-23 21:25:44.504][INFO] 获取已安装的平台列表...
+[2026-05-23 21:25:44.505][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:25:44.649][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:25:44.649][INFO] 找到 36 个可用平台
+[2026-05-23 21:25:44.649][INFO] 加载了 36 个平台
+[2026-05-23 21:25:44.649][INFO] 获取板卡列表...
+[2026-05-23 21:25:44.650][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:25:45.820][INFO] 找到 5 个端口
+[2026-05-23 21:25:45.820][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:25:45.820][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:25:45.972][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:25:45.972][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:27:59.524][INFO] 获取已安装库列表...
+[2026-05-23 21:27:59.526][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:27:59.788][INFO] 找到 0 个已安装的库
+[2026-05-23 21:27:59.789][INFO] 搜索库: A...
+[2026-05-23 21:27:59.789][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search A --format json
+[2026-05-23 21:28:01.017][INFO] 获取已安装库列表...
+[2026-05-23 21:28:01.017][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:01.174][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:01.197][INFO] 搜索到 9424 个库
+[2026-05-23 21:28:01.204][INFO] 加载了 9424 个库
+[2026-05-23 21:28:03.293][INFO] 获取已安装库列表...
+[2026-05-23 21:28:03.293][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:03.496][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:03.496][INFO] 搜索库: Arduino...
+[2026-05-23 21:28:03.496][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search Arduino --format json
+[2026-05-23 21:28:04.176][INFO] 获取已安装库列表...
+[2026-05-23 21:28:04.177][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:04.320][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:04.332][INFO] 搜索到 4490 个库
+[2026-05-23 21:28:04.333][INFO] 加载了 4490 个库
+[2026-05-23 21:28:08.282][INFO] 获取已安装库列表...
+[2026-05-23 21:28:08.283][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:08.480][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:08.480][INFO] 搜索库: Arduino j...
+[2026-05-23 21:28:08.480][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search Arduino j --format json
+[2026-05-23 21:28:08.914][INFO] 获取已安装库列表...
+[2026-05-23 21:28:08.914][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:09.098][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:09.100][INFO] 搜索到 946 个库
+[2026-05-23 21:28:09.101][INFO] 加载了 946 个库
+[2026-05-23 21:28:11.788][INFO] 获取已安装库列表...
+[2026-05-23 21:28:11.788][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:11.983][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:11.984][INFO] 搜索库: Arduino...
+[2026-05-23 21:28:11.984][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search Arduino --format json
+[2026-05-23 21:28:12.752][INFO] 获取已安装库列表...
+[2026-05-23 21:28:12.752][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:12.946][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:12.957][INFO] 搜索到 4490 个库
+[2026-05-23 21:28:12.961][INFO] 加载了 4490 个库
+[2026-05-23 21:28:14.214][INFO] 获取已安装库列表...
+[2026-05-23 21:28:14.216][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:14.409][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:14.409][INFO] 搜索库: ArduinoJn...
+[2026-05-23 21:28:14.409][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search ArduinoJn --format json
+[2026-05-23 21:28:14.602][INFO] 获取已安装库列表...
+[2026-05-23 21:28:14.603][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:14.746][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:14.746][INFO] 搜索到 0 个库
+[2026-05-23 21:28:14.746][INFO] 加载了 0 个库
+[2026-05-23 21:28:15.247][INFO] 获取已安装库列表...
+[2026-05-23 21:28:15.247][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:15.423][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:15.423][INFO] 搜索库: ArduinoJ...
+[2026-05-23 21:28:15.423][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search ArduinoJ --format json
+[2026-05-23 21:28:15.616][INFO] 获取已安装库列表...
+[2026-05-23 21:28:15.616][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:15.760][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:15.760][INFO] 搜索到 27 个库
+[2026-05-23 21:28:15.760][INFO] 加载了 27 个库
+[2026-05-23 21:28:16.419][INFO] 获取已安装库列表...
+[2026-05-23 21:28:16.420][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:16.606][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:16.606][INFO] 搜索库: ArduinoJson...
+[2026-05-23 21:28:16.606][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search ArduinoJson --format json
+[2026-05-23 21:28:16.803][INFO] 获取已安装库列表...
+[2026-05-23 21:28:16.803][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:16.944][INFO] 找到 0 个已安装的库
+[2026-05-23 21:28:16.945][INFO] 搜索到 27 个库
+[2026-05-23 21:28:16.945][INFO] 加载了 27 个库
+[2026-05-23 21:28:23.189][INFO] 安装库: ArduinoJson@7.4.3...
+[2026-05-23 21:28:23.190][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib install ArduinoJson@7.4.3
+[2026-05-23 21:28:24.680][INFO] 库 ArduinoJson@7.4.3 安装成功
+[2026-05-23 21:28:24.681][INFO] 库 ArduinoJson 安装成功
+[2026-05-23 21:28:24.681][INFO] 获取已安装库列表...
+[2026-05-23 21:28:24.681][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:24.898][INFO] 找到 1 个已安装的库
+[2026-05-23 21:28:24.899][INFO] 库依赖文件已保存: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino_libraries.txt
+[2026-05-23 21:28:24.899][INFO] 库依赖记录已更新: ArduinoJson==7.4.3
+[2026-05-23 21:28:24.899][INFO] 获取已安装库列表...
+[2026-05-23 21:28:24.899][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:25.065][INFO] 找到 1 个已安装的库
+[2026-05-23 21:28:25.065][INFO] 搜索库: ArduinoJson...
+[2026-05-23 21:28:25.065][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search ArduinoJson --format json
+[2026-05-23 21:28:25.265][INFO] 获取已安装库列表...
+[2026-05-23 21:28:25.266][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:25.423][INFO] 找到 1 个已安装的库
+[2026-05-23 21:28:25.424][INFO] 搜索到 27 个库
+[2026-05-23 21:28:25.424][INFO] 加载了 27 个库
+[2026-05-23 21:28:43.176][INFO] 获取已安装库列表...
+[2026-05-23 21:28:43.177][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:43.436][INFO] 找到 1 个已安装的库
+[2026-05-23 21:28:43.436][INFO] 搜索库: (全部)...
+[2026-05-23 21:28:43.436][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search --format json
+[2026-05-23 21:28:44.656][INFO] 获取已安装库列表...
+[2026-05-23 21:28:44.657][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:44.812][INFO] 找到 1 个已安装的库
+[2026-05-23 21:28:44.833][INFO] 搜索到 9434 个库
+[2026-05-23 21:28:44.839][INFO] 加载了 9434 个库
+[2026-05-23 21:28:46.496][INFO] 获取已安装库列表...
+[2026-05-23 21:28:46.496][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:46.705][INFO] 找到 1 个已安装的库
+[2026-05-23 21:28:46.705][INFO] 搜索库: tinygps...
+[2026-05-23 21:28:46.705][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search tinygps --format json
+[2026-05-23 21:28:46.912][INFO] 获取已安装库列表...
+[2026-05-23 21:28:46.912][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:47.054][INFO] 找到 1 个已安装的库
+[2026-05-23 21:28:47.054][INFO] 搜索到 5 个库
+[2026-05-23 21:28:47.054][INFO] 加载了 5 个库
+[2026-05-23 21:28:53.349][INFO] 安装库: TinyGPSPlus...
+[2026-05-23 21:28:53.350][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib install TinyGPSPlus
+[2026-05-23 21:28:54.465][INFO] 库 TinyGPSPlus 安装成功
+[2026-05-23 21:28:54.466][INFO] 库 TinyGPSPlus 安装成功
+[2026-05-23 21:28:54.466][INFO] 获取已安装库列表...
+[2026-05-23 21:28:54.466][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:54.612][INFO] 找到 2 个已安装的库
+[2026-05-23 21:28:54.615][INFO] 库依赖文件已保存: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino_libraries.txt
+[2026-05-23 21:28:54.615][INFO] 库依赖记录已更新: TinyGPSPlus==1.0.3
+[2026-05-23 21:28:54.615][INFO] 获取已安装库列表...
+[2026-05-23 21:28:54.615][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:54.765][INFO] 找到 2 个已安装的库
+[2026-05-23 21:28:54.765][INFO] 搜索库: tinygps...
+[2026-05-23 21:28:54.765][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search tinygps --format json
+[2026-05-23 21:28:54.956][INFO] 获取已安装库列表...
+[2026-05-23 21:28:54.956][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:55.098][INFO] 找到 2 个已安装的库
+[2026-05-23 21:28:55.098][INFO] 搜索到 5 个库
+[2026-05-23 21:28:55.098][INFO] 加载了 5 个库
+[2026-05-23 21:28:57.986][INFO] 安装库: TinyGPSPlusPlus@0.0.4...
+[2026-05-23 21:28:57.986][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib install TinyGPSPlusPlus@0.0.4
+[2026-05-23 21:28:59.097][INFO] 库 TinyGPSPlusPlus@0.0.4 安装成功
+[2026-05-23 21:28:59.097][INFO] 库 TinyGPSPlusPlus 安装成功
+[2026-05-23 21:28:59.097][INFO] 获取已安装库列表...
+[2026-05-23 21:28:59.098][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:59.245][INFO] 找到 3 个已安装的库
+[2026-05-23 21:28:59.247][INFO] 库依赖文件已保存: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino_libraries.txt
+[2026-05-23 21:28:59.247][INFO] 库依赖记录已更新: TinyGPSPlusPlus==0.0.4
+[2026-05-23 21:28:59.247][INFO] 获取已安装库列表...
+[2026-05-23 21:28:59.247][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:59.395][INFO] 找到 3 个已安装的库
+[2026-05-23 21:28:59.395][INFO] 搜索库: tinygps...
+[2026-05-23 21:28:59.395][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search tinygps --format json
+[2026-05-23 21:28:59.587][INFO] 获取已安装库列表...
+[2026-05-23 21:28:59.587][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:28:59.736][INFO] 找到 3 个已安装的库
+[2026-05-23 21:28:59.736][INFO] 搜索到 5 个库
+[2026-05-23 21:28:59.736][INFO] 加载了 5 个库
+[2026-05-23 21:29:22.256][INFO] 选择平台: arduino:avr
+[2026-05-23 21:29:27.716][INFO] 获取板卡详情: arduino:avr:uno...
+[2026-05-23 21:29:27.717][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board details --fqbn arduino:avr:uno --format json
+[2026-05-23 21:29:27.906][INFO] 板卡 Arduino UNO 有 0 个配置选项
+[2026-05-23 21:29:27.906][INFO] 板卡详情已缓存: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino_avr_uno.json
+[2026-05-23 21:29:27.906][INFO] 获取板卡详情成功: Arduino UNO, 0 个配置选项
+[2026-05-23 21:29:27.906][INFO] 选择板卡: arduino:avr:uno
+[2026-05-23 21:29:27.907][INFO] 已创建配置目录: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino
+[2026-05-23 21:29:27.907][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 21:29:27.909][INFO] 解析板卡 uno: core=arduino, variant=standard
+[2026-05-23 21:29:27.910][INFO] 添加核心路径: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/data/packages/arduino/hardware/avr/1.8.8/cores/arduino
+[2026-05-23 21:29:27.910][INFO] 添加变体路径: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/data/packages/arduino/hardware/avr/1.8.8/variants/standard
+[2026-05-23 21:29:27.910][INFO] 添加平台库路径: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/data/packages/arduino/hardware/avr/1.8.8/libraries
+[2026-05-23 21:29:27.918][INFO] 添加用户库路径: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/user/libraries
+[2026-05-23 21:29:27.919][INFO] 解析板卡 uno: core=arduino, variant=standard
+[2026-05-23 21:29:27.919][INFO] 已生成 IntelliSense 配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.vscode/c_cpp_properties.json
+[2026-05-23 21:29:27.919][INFO] IntelliSense 配置已自动更新，板卡: arduino:avr:uno
+[2026-05-23 21:29:27.919][INFO] 板卡已更新: arduino:avr:uno
+[2026-05-23 21:29:41.235][INFO] 选择端口: /dev/cu.wlan-debug
+[2026-05-23 21:29:41.236][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 21:29:41.237][INFO] 端口已更新: /dev/cu.wlan-debug
+[2026-05-23 21:29:44.951][INFO] 选择端口: /dev/cu.debug-console
+[2026-05-23 21:29:44.951][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 21:29:44.951][INFO] 端口已更新: /dev/cu.debug-console
+[2026-05-23 21:29:49.530][INFO] 选择端口: /dev/cu.wlan-debug
+[2026-05-23 21:29:49.531][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 21:29:49.531][INFO] 端口已更新: /dev/cu.wlan-debug
+[2026-05-23 21:30:00.987][INFO] 选择端口: /dev/cu.debug-console
+[2026-05-23 21:30:00.988][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 21:30:00.988][INFO] 端口已更新: /dev/cu.debug-console
+[2026-05-23 21:30:47.133][INFO] 获取板卡列表...
+[2026-05-23 21:30:47.133][INFO] 获取已安装的平台列表...
+[2026-05-23 21:30:47.133][INFO] 获取已安装库列表...
+[2026-05-23 21:30:47.134][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:30:47.134][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:30:47.135][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:30:47.466][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:30:47.466][INFO] 搜索平台（全部）...
+[2026-05-23 21:30:47.466][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core search --format json
+[2026-05-23 21:30:47.495][INFO] 找到 3 个已安装的库
+[2026-05-23 21:30:47.496][INFO] 搜索库: tinygps...
+[2026-05-23 21:30:47.496][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search tinygps --format json
+[2026-05-23 21:30:47.640][INFO] 获取已安装的平台列表...
+[2026-05-23 21:30:47.640][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:30:47.720][INFO] 获取已安装库列表...
+[2026-05-23 21:30:47.720][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:30:47.805][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:30:47.805][INFO] 找到 36 个可用平台
+[2026-05-23 21:30:47.806][INFO] 加载了 36 个平台
+[2026-05-23 21:30:47.875][INFO] 找到 3 个已安装的库
+[2026-05-23 21:30:47.876][INFO] 搜索到 5 个库
+[2026-05-23 21:30:47.877][INFO] 加载了 5 个库
+[2026-05-23 21:30:48.524][INFO] 找到 5 个端口
+[2026-05-23 21:30:48.524][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:30:48.525][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:30:48.699][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:30:48.699][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:30:48.699][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:31:09.807][INFO] 验证 Arduino CLI 路径: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:31:09.841][INFO] Arduino CLI 验证成功: v1.5.0
+[2026-05-23 21:31:09.857][INFO] CLI 路径已更新为: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:31:09.857][INFO] 刷新板卡列表...
+[2026-05-23 21:31:09.857][INFO] 获取板卡列表...
+[2026-05-23 21:31:09.857][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:31:11.071][INFO] 找到 5 个端口
+[2026-05-23 21:31:11.072][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:31:11.072][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:31:11.235][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:31:11.236][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:31:21.181][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli compile --fqbn arduino:avr:uno --verbose --build-path /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build --export-binaries /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 21:31:25.980][ERROR] /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void setup()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:326:6: error: redefinition of 'void setup()'
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:6:6: note: 'void setup()' previously defined here
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void loop()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:363:6: error: redefinition of 'void loop()'
+ void loop() {
+      ^~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:11:6: note: 'void loop()' previously defined here
+ void loop() {
+      ^~~~
+Error during build: exit status 1
+
+[2026-05-23 21:31:35.945][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli upload --fqbn arduino:avr:uno -p /dev/cu.debug-console --verbose --input-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 21:31:36.854][ERROR] Error finding build artifacts: looking for build artifacts: could not find a valid build artifact
+
+[2026-05-23 21:31:52.264][INFO] Arduino CLI 插件正在停用...
+[2026-05-23 21:31:52.264][INFO] 串口监视器(Terminal)已释放
+[2026-05-23 21:31:52.264][INFO] 串口监视器(WebView)已释放
+[2026-05-23 21:31:52.265][INFO] [BoardDiscovery] 释放资源...
+[2026-05-23 21:31:52.265][INFO] [BoardDiscovery] 资源已释放
+[2026-05-23 21:31:52.265][INFO] Arduino Extension 关闭
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+[2026-05-23 21:32:28.472] Arduino Extension 启动 (v0.2.1)
+  平台: darwin arm64
+  VS Code: 1.121.0
+  Node: v22.22.1
+======================================================================
+[2026-05-23 21:32:28.472][INFO] 板卡缓存目录: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli
+[2026-05-23 21:32:28.472][INFO] [BoardListHistory] 已初始化，加载了 0 个板卡记录，0 个端口记录
+[2026-05-23 21:32:28.473][INFO] [BuildOutputWebview] 编译日志缓存路径: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.vscode/build-output.log
+[2026-05-23 21:32:28.473][INFO] 刷新板卡列表...
+[2026-05-23 21:32:28.473][INFO] 获取板卡列表...
+[2026-05-23 21:32:28.473][INFO] 验证 Arduino CLI 路径: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:28.475][INFO] 刷新板卡管理器...
+[2026-05-23 21:32:28.475][INFO] 获取已安装的平台列表...
+[2026-05-23 21:32:28.475][INFO] 验证 Arduino CLI 路径: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:28.476][INFO] 获取已安装库列表...
+[2026-05-23 21:32:28.476][INFO] 验证 Arduino CLI 路径: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:28.480][INFO] 已注册调试命令
+[2026-05-23 21:32:28.480][INFO] 正在检测 Arduino CLI...
+[2026-05-23 21:32:28.481][INFO] 验证 Arduino CLI 路径: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:28.482][INFO] Arduino CLI 插件激活完成
+[2026-05-23 21:32:28.629][INFO] Arduino CLI 验证成功: v1.5.0
+[2026-05-23 21:32:28.629][INFO] 使用全局共享下载目录: /Users/chimigyeltshen/.arduino-cli-shared/downloads
+[2026-05-23 21:32:28.629][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:32:28.630][INFO] Arduino CLI 验证成功: v1.5.0
+[2026-05-23 21:32:28.630][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:32:28.631][INFO] Arduino CLI 验证成功: v1.5.0
+[2026-05-23 21:32:28.631][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:28.631][INFO] Arduino CLI 验证成功: v1.5.0
+[2026-05-23 21:32:28.631][INFO] 验证 Arduino CLI 路径: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:28.745][INFO] Arduino CLI 验证成功: v1.5.0
+[2026-05-23 21:32:30.490][INFO] CLI 路径已更新为: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:30.490][INFO] 使用内置 Arduino CLI: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:30.490][INFO] Arduino CLI 已就绪: /Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli
+[2026-05-23 21:32:30.490][INFO] 版本: 1.5.0
+[2026-05-23 21:32:30.490][INFO] 刷新板卡列表...
+[2026-05-23 21:32:30.490][INFO] 获取板卡列表...
+[2026-05-23 21:32:30.490][INFO] 获取板卡列表...
+[2026-05-23 21:32:30.491][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:30.491][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:30.492][INFO] [BoardDiscovery] 启动板卡实时发现...
+[2026-05-23 21:32:30.492][INFO] [BoardDiscovery] 监听进程已启动
+[2026-05-23 21:32:30.492][INFO] 启动时自动更新 Library Index...
+[2026-05-23 21:32:30.493][INFO] 已加载项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 21:32:30.493][INFO] 已加载项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 21:32:30.494][INFO] 从文件缓存获取板卡详情: arduino:avr:uno (0 个选项)
+[2026-05-23 21:32:30.494][INFO] 从项目配置加载板卡: arduino:avr:uno
+[2026-05-23 21:32:30.495][INFO] 从项目配置加载端口: /dev/cu.debug-console
+[2026-05-23 21:32:30.597][INFO] 找到 5 个端口
+[2026-05-23 21:32:30.597][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:30.597][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:30.599][INFO] 找到 3 个已安装的库
+[2026-05-23 21:32:30.599][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:32:31.393][INFO] [BoardDiscovery] 端口添加: /dev/cu.wlan-debug - Serial Port
+[2026-05-23 21:32:31.393][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:32:31.393][INFO] 刷新板卡列表...
+[2026-05-23 21:32:31.393][INFO] 获取板卡列表...
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 端口添加: /dev/cu.debug-console - Serial Port
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:32:31.394][INFO] 刷新板卡列表...
+[2026-05-23 21:32:31.394][INFO] 获取板卡列表...
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 端口添加: /dev/cu.Bluetooth-Incoming-Port - Serial Port
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:32:31.394][INFO] 刷新板卡列表...
+[2026-05-23 21:32:31.394][INFO] 获取板卡列表...
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 端口添加: /dev/cu.AirBassEarbuds - Serial Port
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:32:31.394][INFO] 刷新板卡列表...
+[2026-05-23 21:32:31.394][INFO] 获取板卡列表...
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 21:32:31.394][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:32:31.394][INFO] 刷新板卡列表...
+[2026-05-23 21:32:31.394][INFO] 获取板卡列表...
+[2026-05-23 21:32:31.394][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:31.396][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:31.397][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:31.399][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:31.401][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:31.439][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:31.440][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:32:32.478][INFO] 找到 5 个端口
+[2026-05-23 21:32:32.478][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:32.478][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:32.480][INFO] 找到 5 个端口
+[2026-05-23 21:32:32.480][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:32.480][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:32.911][FATAL] [Global] 未捕获的异常: e is not iterable
+
+TypeError: e is not iterable
+	at n3e.setItems (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19963)
+	at fp._computeFn (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19702)
+	at fp._recompute (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:11921)
+	at fp.get (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:11255)
+	at fp.reportChanges (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:497)
+	at t3e.endUpdate (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19461)
+	at wvn (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19179)
+	at fp.recomputeInitiallyAndOnChange (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:1092)
+	at hP.init (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:3153:1663)
+  Stack: Error: e is not iterable
+
+TypeError: e is not iterable
+	at n3e.setItems (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19963)
+	at fp._computeFn (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19702)
+	at fp._recompute (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:11921)
+	at fp.get (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:11255)
+	at fp.reportChanges (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:497)
+	at t3e.endUpdate (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19461)
+	at wvn (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:19179)
+	at fp.recomputeInitiallyAndOnChange (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:1167:1092)
+	at hP.init (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:3153:1663)
+	at Timeout._onTimeout (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/copilot/dist/extension.js:3:12)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7)
+[2026-05-23 21:32:33.122][INFO] 找到 5 个端口
+[2026-05-23 21:32:33.122][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:33.122][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:33.378][INFO] 找到 5 个端口
+[2026-05-23 21:32:33.378][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:33.378][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:33.380][INFO] 找到 5 个端口
+[2026-05-23 21:32:33.380][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:33.380][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:33.382][INFO] 找到 5 个端口
+[2026-05-23 21:32:33.382][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:33.382][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:33.384][INFO] 找到 5 个端口
+[2026-05-23 21:32:33.384][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:33.384][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:34.491][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:34.492][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:32:34.492][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:32:34.592][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:34.592][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:32:34.609][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:34.610][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:32:34.830][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:34.830][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:32:34.887][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:34.887][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:32:34.890][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:34.890][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:32:34.908][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:34.908][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:32:43.306][INFO] 获取板卡列表...
+[2026-05-23 21:32:43.306][INFO] 获取已安装的平台列表...
+[2026-05-23 21:32:43.307][INFO] 获取已安装库列表...
+[2026-05-23 21:32:43.307][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:32:43.309][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:32:43.309][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:32:43.827][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:32:43.828][INFO] 搜索平台（全部）...
+[2026-05-23 21:32:43.828][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core search --format json
+[2026-05-23 21:32:43.836][INFO] 找到 3 个已安装的库
+[2026-05-23 21:32:43.836][INFO] 搜索库: (全部)...
+[2026-05-23 21:32:43.836][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search --format json
+[2026-05-23 21:32:44.107][INFO] 获取已安装的平台列表...
+[2026-05-23 21:32:44.107][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:32:44.357][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:32:44.358][INFO] 找到 36 个可用平台
+[2026-05-23 21:32:44.358][INFO] 加载了 36 个平台
+[2026-05-23 21:32:44.855][INFO] 找到 5 个端口
+[2026-05-23 21:32:44.855][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:32:44.855][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:32:45.119][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:32:45.119][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:32:45.119][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:32:45.311][INFO] 获取已安装库列表...
+[2026-05-23 21:32:45.311][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:32:45.469][INFO] 找到 3 个已安装的库
+[2026-05-23 21:32:45.500][INFO] 搜索到 9434 个库
+[2026-05-23 21:32:45.504][INFO] 加载了 9434 个库
+[2026-05-23 21:32:55.906][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli compile --fqbn arduino:avr:uno --verbose --build-path /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build --export-binaries /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 21:32:59.229][ERROR] /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void setup()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:326:6: error: redefinition of 'void setup()'
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:6:6: note: 'void setup()' previously defined here
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void loop()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:363:6: error: redefinition of 'void loop()'
+ void loop() {
+      ^~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:11:6: note: 'void loop()' previously defined here
+ void loop() {
+      ^~~~
+Error during build: exit status 1
+
+[2026-05-23 21:34:19.494][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli compile --fqbn arduino:avr:uno --verbose --build-path /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build --export-binaries /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 21:34:22.960][ERROR] /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:11:22: error: redefinition of 'SoftwareSerial sim800'
+ SoftwareSerial sim800(SIM800_TX, SIM800_RX);
+                      ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:11:16: note: 'SoftwareSerial sim800' previously declared here
+ SoftwareSerial sim800(SIM800_TX, SIM800_RX);
+                ^~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:20:25: error: redefinition of 'SoftwareSerial gpsSerial'
+ SoftwareSerial gpsSerial(GPS_TX, GPS_RX);
+                         ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:20:16: note: 'SoftwareSerial gpsSerial' previously declared here
+ SoftwareSerial gpsSerial(GPS_TX, GPS_RX);
+                ^~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:22:13: error: redefinition of 'TinyGPSPlus gps'
+ TinyGPSPlus gps;
+             ^~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:22:13: note: 'TinyGPSPlus gps' previously declared here
+ TinyGPSPlus gps;
+             ^~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:28:16: error: redefinition of 'const char APN []'
+ const char APN[] = "ticlnet";
+                ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:28:12: note: 'const char APN [8]' previously defined here
+ const char APN[] = "ticlnet";
+            ^~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:30:24: error: redefinition of 'const char SERVER_HOST []'
+ const char SERVER_HOST[] =
+                        ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:30:12: note: 'const char SERVER_HOST [12]' previously defined here
+ const char SERVER_HOST[] =
+            ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:33:24: error: redefinition of 'const char SERVER_PATH []'
+ const char SERVER_PATH[] =
+                        ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:33:12: note: 'const char SERVER_PATH [22]' previously defined here
+ const char SERVER_PATH[] =
+            ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:36:23: error: redefinition of 'const char VEHICLE_ID []'
+ const char VEHICLE_ID[] =
+                       ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:36:12: note: 'const char VEHICLE_ID [12]' previously defined here
+ const char VEHICLE_ID[] =
+            ^~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:41:6: error: redefinition of 'bool locationSent'
+ bool locationSent = false;
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:41:6: note: 'bool locationSent' previously defined here
+ bool locationSent = false;
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'String readResponse(long unsigned int)':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:47:8: error: redefinition of 'String readResponse(long unsigned int)'
+ String readResponse(unsigned long timeout = 5000) {
+        ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:47:8: note: 'String readResponse(long unsigned int)' previously defined here
+ String readResponse(unsigned long timeout = 5000) {
+        ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'String sendCommand(String, long unsigned int)':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:75:8: error: redefinition of 'String sendCommand(String, long unsigned int)'
+ String sendCommand(String cmd,
+        ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:75:8: note: 'String sendCommand(String, long unsigned int)' previously defined here
+ String sendCommand(String cmd,
+        ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'bool initializeSIM800()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:94:6: error: redefinition of 'bool initializeSIM800()'
+ bool initializeSIM800() {
+      ^~~~~~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:94:6: note: 'bool initializeSIM800()' previously defined here
+ bool initializeSIM800() {
+      ^~~~~~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void sendLocation(float, float, float, float, int)':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:174:6: error: redefinition of 'void sendLocation(float, float, float, float, int)'
+ void sendLocation(float lat,
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:174:6: note: 'void sendLocation(float, float, float, float, int)' previously defined here
+ void sendLocation(float lat,
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void setup()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:326:6: error: redefinition of 'void setup()'
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:326:6: note: 'void setup()' previously defined here
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void loop()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:363:6: error: redefinition of 'void loop()'
+ void loop() {
+      ^~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:363:6: note: 'void loop()' previously defined here
+ void loop() {
+      ^~~~
+Error during build: exit status 1
+
+[2026-05-23 21:35:19.298][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli compile --fqbn arduino:avr:uno --verbose --build-path /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build --export-binaries /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 21:35:22.760][ERROR] /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:11:22: error: redefinition of 'SoftwareSerial sim800'
+ SoftwareSerial sim800(SIM800_TX, SIM800_RX);
+                      ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:11:16: note: 'SoftwareSerial sim800' previously declared here
+ SoftwareSerial sim800(SIM800_TX, SIM800_RX);
+                ^~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:20:25: error: redefinition of 'SoftwareSerial gpsSerial'
+ SoftwareSerial gpsSerial(GPS_TX, GPS_RX);
+                         ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:20:16: note: 'SoftwareSerial gpsSerial' previously declared here
+ SoftwareSerial gpsSerial(GPS_TX, GPS_RX);
+                ^~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:22:13: error: redefinition of 'TinyGPSPlus gps'
+ TinyGPSPlus gps;
+             ^~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:22:13: note: 'TinyGPSPlus gps' previously declared here
+ TinyGPSPlus gps;
+             ^~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:28:16: error: redefinition of 'const char APN []'
+ const char APN[] = "ticlnet";
+                ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:28:12: note: 'const char APN [8]' previously defined here
+ const char APN[] = "ticlnet";
+            ^~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:30:24: error: redefinition of 'const char SERVER_HOST []'
+ const char SERVER_HOST[] =
+                        ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:30:12: note: 'const char SERVER_HOST [12]' previously defined here
+ const char SERVER_HOST[] =
+            ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:33:24: error: redefinition of 'const char SERVER_PATH []'
+ const char SERVER_PATH[] =
+                        ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:33:12: note: 'const char SERVER_PATH [22]' previously defined here
+ const char SERVER_PATH[] =
+            ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:36:23: error: redefinition of 'const char VEHICLE_ID []'
+ const char VEHICLE_ID[] =
+                       ^
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:36:12: note: 'const char VEHICLE_ID [12]' previously defined here
+ const char VEHICLE_ID[] =
+            ^~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:41:6: error: redefinition of 'bool locationSent'
+ bool locationSent = false;
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:41:6: note: 'bool locationSent' previously defined here
+ bool locationSent = false;
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'String readResponse(long unsigned int)':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:47:8: error: redefinition of 'String readResponse(long unsigned int)'
+ String readResponse(unsigned long timeout = 5000) {
+        ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:47:8: note: 'String readResponse(long unsigned int)' previously defined here
+ String readResponse(unsigned long timeout = 5000) {
+        ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'String sendCommand(String, long unsigned int)':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:75:8: error: redefinition of 'String sendCommand(String, long unsigned int)'
+ String sendCommand(String cmd,
+        ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:75:8: note: 'String sendCommand(String, long unsigned int)' previously defined here
+ String sendCommand(String cmd,
+        ^~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'bool initializeSIM800()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:94:6: error: redefinition of 'bool initializeSIM800()'
+ bool initializeSIM800() {
+      ^~~~~~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:94:6: note: 'bool initializeSIM800()' previously defined here
+ bool initializeSIM800() {
+      ^~~~~~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void sendLocation(float, float, float, float, int)':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:174:6: error: redefinition of 'void sendLocation(float, float, float, float, int)'
+ void sendLocation(float lat,
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:174:6: note: 'void sendLocation(float, float, float, float, int)' previously defined here
+ void sendLocation(float lat,
+      ^~~~~~~~~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void setup()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:326:6: error: redefinition of 'void setup()'
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:326:6: note: 'void setup()' previously defined here
+ void setup() {
+      ^~~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino: In function 'void loop()':
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/arduino.ino:363:6: error: redefinition of 'void loop()'
+ void loop() {
+      ^~~~
+/Users/chimigyeltshen/Desktop/ChimiPersonla/gps/gps.ino:363:6: note: 'void loop()' previously defined here
+ void loop() {
+      ^~~~
+Error during build: exit status 1
+
+[2026-05-23 21:36:44.075][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli compile --fqbn arduino:avr:uno --verbose --build-path /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build --export-binaries /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 21:36:45.857][INFO] 获取板卡列表...
+[2026-05-23 21:36:45.857][INFO] 获取已安装的平台列表...
+[2026-05-23 21:36:45.857][INFO] 获取已安装库列表...
+[2026-05-23 21:36:45.858][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:36:45.858][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:36:45.859][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:36:46.248][INFO] 找到 3 个已安装的库
+[2026-05-23 21:36:46.248][INFO] 搜索库: (全部)...
+[2026-05-23 21:36:46.248][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search --format json
+[2026-05-23 21:36:46.250][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:36:46.250][INFO] 搜索平台（全部）...
+[2026-05-23 21:36:46.250][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core search --format json
+[2026-05-23 21:36:46.442][INFO] 获取已安装的平台列表...
+[2026-05-23 21:36:46.443][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:36:46.643][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:36:46.644][INFO] 找到 36 个可用平台
+[2026-05-23 21:36:46.644][INFO] 加载了 36 个平台
+[2026-05-23 21:36:47.301][INFO] 找到 5 个端口
+[2026-05-23 21:36:47.302][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:36:47.302][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:36:47.728][INFO] 获取已安装库列表...
+[2026-05-23 21:36:47.728][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:36:47.734][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:36:47.734][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:36:47.734][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:36:47.909][INFO] 找到 3 个已安装的库
+[2026-05-23 21:36:47.934][INFO] 搜索到 9434 个库
+[2026-05-23 21:36:47.943][INFO] 加载了 9434 个库
+[2026-05-23 21:37:05.345][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli upload --fqbn arduino:avr:uno -p /dev/cu.debug-console --verbose --input-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 21:38:01.412][ERROR] Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/data/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+User configuration file /Users/chimigyeltshen/.avrduderc does not exist
+
+Using port            : /dev/cu.debug-console
+Using programmer      : arduino
+Setting baud rate     : 115200
+Error: programmer is not responding
+Warning: attempt 1 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 2 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 3 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 4 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 5 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 6 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 7 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 8 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 9 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 10 of 10: not in sync: resp=0x00
+Error: unable to open port /dev/cu.debug-console for programmer arduino
+
+Avrdude done.  Thank you.
+Failed uploading: uploading error: exit status 1
+
+[2026-05-23 21:38:11.064][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 21:38:11.064][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:38:11.064][INFO] 刷新板卡列表...
+[2026-05-23 21:38:11.064][INFO] 获取板卡列表...
+[2026-05-23 21:38:11.065][INFO] 获取板卡列表...
+[2026-05-23 21:38:11.065][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:38:11.066][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:38:12.334][INFO] 找到 4 个端口
+[2026-05-23 21:38:12.335][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:38:12.335][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:38:12.337][INFO] 找到 4 个端口
+[2026-05-23 21:38:12.337][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:38:12.337][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:38:12.515][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:38:12.515][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:38:12.516][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:38:12.516][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:38:12.516][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:38:22.297][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem1101 - Arduino Uno
+[2026-05-23 21:38:22.297][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:38:22.297][INFO] 刷新板卡列表...
+[2026-05-23 21:38:22.297][INFO] 获取板卡列表...
+[2026-05-23 21:38:22.298][INFO] 获取板卡列表...
+[2026-05-23 21:38:22.298][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:38:22.300][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:38:23.546][INFO] 找到 5 个端口
+[2026-05-23 21:38:23.546][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:38:23.547][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:38:23.548][INFO] 找到 5 个端口
+[2026-05-23 21:38:23.548][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:38:23.548][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:38:23.723][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:38:23.723][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:38:23.725][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:38:23.725][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:38:23.725][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:39:14.780][INFO] 选择平台: arduino:avr
+[2026-05-23 21:39:53.459][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem1101
+[2026-05-23 21:39:53.459][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:39:53.459][INFO] 刷新板卡列表...
+[2026-05-23 21:39:53.460][INFO] 获取板卡列表...
+[2026-05-23 21:39:53.460][INFO] 获取板卡列表...
+[2026-05-23 21:39:53.461][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:39:53.464][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:39:54.729][INFO] 找到 4 个端口
+[2026-05-23 21:39:54.729][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:39:54.730][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:39:54.732][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem1101 - Arduino Uno
+[2026-05-23 21:39:54.732][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:39:54.732][INFO] 刷新板卡列表...
+[2026-05-23 21:39:54.732][INFO] 获取板卡列表...
+[2026-05-23 21:39:54.733][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:39:54.734][INFO] 找到 4 个端口
+[2026-05-23 21:39:54.734][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:39:54.734][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:39:54.928][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:39:54.928][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:39:54.928][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:39:54.942][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:39:54.943][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:39:55.957][INFO] 找到 5 个端口
+[2026-05-23 21:39:55.957][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:39:55.958][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:39:56.124][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:39:56.124][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:44:19.852][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem1101
+[2026-05-23 21:44:19.853][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:44:19.853][INFO] 刷新板卡列表...
+[2026-05-23 21:44:19.853][INFO] 获取板卡列表...
+[2026-05-23 21:44:19.854][INFO] 获取板卡列表...
+[2026-05-23 21:44:19.854][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:44:19.856][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:44:21.153][INFO] 找到 4 个端口
+[2026-05-23 21:44:21.153][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:44:21.154][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:44:21.156][INFO] 找到 4 个端口
+[2026-05-23 21:44:21.156][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:44:21.156][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:44:21.343][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:44:21.343][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:44:21.343][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:44:21.347][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:44:21.347][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:55:23.266][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 21:55:23.266][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:55:23.266][INFO] 刷新板卡列表...
+[2026-05-23 21:55:23.266][INFO] 获取板卡列表...
+[2026-05-23 21:55:23.268][INFO] 获取板卡列表...
+[2026-05-23 21:55:23.271][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:55:23.273][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:55:24.688][INFO] 找到 5 个端口
+[2026-05-23 21:55:24.688][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:55:24.689][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:55:24.693][INFO] 找到 5 个端口
+[2026-05-23 21:55:24.693][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:55:24.693][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:55:24.869][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:55:24.871][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:55:24.877][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:55:24.877][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:55:24.878][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:57:03.942][INFO] 获取板卡列表...
+[2026-05-23 21:57:03.948][INFO] 获取已安装的平台列表...
+[2026-05-23 21:57:03.948][INFO] 获取已安装库列表...
+[2026-05-23 21:57:03.948][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:03.950][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:57:03.956][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:57:04.431][INFO] 找到 3 个已安装的库
+[2026-05-23 21:57:04.432][INFO] 搜索库: (全部)...
+[2026-05-23 21:57:04.432][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib search --format json
+[2026-05-23 21:57:04.435][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:57:04.435][INFO] 搜索平台（全部）...
+[2026-05-23 21:57:04.435][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core search --format json
+[2026-05-23 21:57:04.610][INFO] 获取已安装的平台列表...
+[2026-05-23 21:57:04.611][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli core list --format json
+[2026-05-23 21:57:04.788][INFO] 找到 1 个已安装的平台
+[2026-05-23 21:57:04.789][INFO] 找到 36 个可用平台
+[2026-05-23 21:57:04.789][INFO] 加载了 36 个平台
+[2026-05-23 21:57:05.462][INFO] 找到 5 个端口
+[2026-05-23 21:57:05.462][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:57:05.462][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:57:06.022][INFO] 获取已安装库列表...
+[2026-05-23 21:57:06.022][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli lib list --format json
+[2026-05-23 21:57:06.031][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:57:06.031][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:57:06.031][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:57:06.186][INFO] 找到 3 个已安装的库
+[2026-05-23 21:57:06.209][INFO] 搜索到 9434 个库
+[2026-05-23 21:57:06.216][INFO] 加载了 9434 个库
+[2026-05-23 21:57:12.756][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 21:57:12.756][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:57:12.756][INFO] 刷新板卡列表...
+[2026-05-23 21:57:12.756][INFO] 获取板卡列表...
+[2026-05-23 21:57:12.757][INFO] 获取板卡列表...
+[2026-05-23 21:57:12.758][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:12.760][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:14.029][INFO] 找到 4 个端口
+[2026-05-23 21:57:14.030][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:57:14.030][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:57:14.032][INFO] 找到 4 个端口
+[2026-05-23 21:57:14.032][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:57:14.032][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:57:14.212][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:57:14.212][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:57:14.212][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:57:14.213][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:57:14.213][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:57:45.959][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 21:57:45.959][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:57:45.959][INFO] 刷新板卡列表...
+[2026-05-23 21:57:45.959][INFO] 获取板卡列表...
+[2026-05-23 21:57:45.960][INFO] 获取板卡列表...
+[2026-05-23 21:57:45.961][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:45.963][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:47.232][INFO] 找到 5 个端口
+[2026-05-23 21:57:47.232][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:57:47.233][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:57:47.234][INFO] 找到 5 个端口
+[2026-05-23 21:57:47.234][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:57:47.235][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:57:47.418][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:57:47.419][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:57:47.420][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:57:47.420][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:57:47.420][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:57:53.274][INFO] 获取板卡列表...
+[2026-05-23 21:57:53.274][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:54.489][INFO] 找到 5 个端口
+[2026-05-23 21:57:54.491][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:57:54.491][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:57:54.663][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:57:54.663][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:57:54.663][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:57:56.798][INFO] 获取板卡列表...
+[2026-05-23 21:57:56.799][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:58.002][INFO] 找到 5 个端口
+[2026-05-23 21:57:58.002][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:57:58.003][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:57:58.175][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:57:58.175][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:57:58.175][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:57:59.551][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 21:57:59.552][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:57:59.552][INFO] 刷新板卡列表...
+[2026-05-23 21:57:59.552][INFO] 获取板卡列表...
+[2026-05-23 21:57:59.552][INFO] 获取板卡列表...
+[2026-05-23 21:57:59.553][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:57:59.554][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:00.777][INFO] 找到 4 个端口
+[2026-05-23 21:58:00.778][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:00.778][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:00.781][INFO] 找到 4 个端口
+[2026-05-23 21:58:00.781][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:00.781][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:00.956][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:00.956][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:58:00.963][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:00.963][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:58:00.963][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:58:02.211][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 21:58:02.211][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:58:02.211][INFO] 刷新板卡列表...
+[2026-05-23 21:58:02.211][INFO] 获取板卡列表...
+[2026-05-23 21:58:02.212][INFO] 获取板卡列表...
+[2026-05-23 21:58:02.212][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:02.214][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:03.415][INFO] 找到 5 个端口
+[2026-05-23 21:58:03.416][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:03.416][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:03.419][INFO] 找到 5 个端口
+[2026-05-23 21:58:03.419][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:03.419][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:03.597][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:03.597][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:58:03.597][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:58:03.601][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:03.601][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:58:07.708][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 21:58:07.708][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:58:07.708][INFO] 刷新板卡列表...
+[2026-05-23 21:58:07.708][INFO] 获取板卡列表...
+[2026-05-23 21:58:07.708][INFO] 获取板卡列表...
+[2026-05-23 21:58:07.709][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:07.710][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:08.967][INFO] 找到 4 个端口
+[2026-05-23 21:58:08.967][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:08.967][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:08.975][INFO] 找到 4 个端口
+[2026-05-23 21:58:08.976][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:08.976][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:09.125][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:09.125][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 21:58:09.131][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:09.131][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:58:09.132][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:58:15.386][INFO] 获取板卡列表...
+[2026-05-23 21:58:15.387][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:16.578][INFO] 找到 4 个端口
+[2026-05-23 21:58:16.578][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:16.579][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:16.743][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:16.743][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:58:16.743][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:58:26.468][INFO] 获取板卡列表...
+[2026-05-23 21:58:26.468][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:27.699][INFO] 找到 4 个端口
+[2026-05-23 21:58:27.700][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:27.701][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:27.874][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:27.874][INFO] 加载了 1 个平台，4 个端口
+[2026-05-23 21:58:27.874][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:58:41.765][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 21:58:41.765][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 21:58:41.765][INFO] 刷新板卡列表...
+[2026-05-23 21:58:41.765][INFO] 获取板卡列表...
+[2026-05-23 21:58:41.766][INFO] 获取板卡列表...
+[2026-05-23 21:58:41.766][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:41.767][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 21:58:43.058][INFO] 找到 5 个端口
+[2026-05-23 21:58:43.059][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:43.060][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:43.061][INFO] 找到 5 个端口
+[2026-05-23 21:58:43.062][INFO] 获取所有已安装的板卡...
+[2026-05-23 21:58:43.062][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 21:58:43.242][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:43.242][INFO] 加载了 1 个平台，5 个端口
+[2026-05-23 21:58:43.242][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 21:58:43.243][INFO] 找到 27 个已安装的板卡
+[2026-05-23 21:58:43.243][INFO] 加载了 1 个平台，共 27 个板卡
+[2026-05-23 22:00:12.498][INFO] 选择端口: /dev/cu.wlan-debug
+[2026-05-23 22:00:12.506][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 22:00:12.506][INFO] 端口已更新: /dev/cu.wlan-debug
+[2026-05-23 22:00:15.513][INFO] 选择端口: /dev/cu.Bluetooth-Incoming-Port
+[2026-05-23 22:00:15.514][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 22:00:15.514][INFO] 端口已更新: /dev/cu.Bluetooth-Incoming-Port
+[2026-05-23 22:00:23.687][INFO] 选择端口: /dev/cu.wlan-debug
+[2026-05-23 22:00:23.689][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 22:00:23.689][INFO] 端口已更新: /dev/cu.wlan-debug
+[2026-05-23 22:00:24.931][INFO] 选择端口: /dev/cu.debug-console
+[2026-05-23 22:00:24.931][INFO] 已保存项目配置: /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/config.json
+[2026-05-23 22:00:24.931][INFO] 端口已更新: /dev/cu.debug-console
+[2026-05-23 22:00:27.965][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli compile --fqbn arduino:avr:uno --verbose --build-path /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build --export-binaries /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 22:00:38.148][INFO] 执行命令 (带输出回调): "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli upload --fqbn arduino:avr:uno -p /dev/cu.debug-console --verbose --input-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino/build /Users/chimigyeltshen/Desktop/ChimiPersonla/gps
+[2026-05-23 22:01:33.667][ERROR] Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli/data/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+User configuration file /Users/chimigyeltshen/.avrduderc does not exist
+
+Using port            : /dev/cu.debug-console
+Using programmer      : arduino
+Setting baud rate     : 115200
+Error: programmer is not responding
+Warning: attempt 1 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 2 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 3 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 4 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 5 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 6 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 7 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 8 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 9 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 10 of 10: not in sync: resp=0x00
+Error: unable to open port /dev/cu.debug-console for programmer arduino
+
+Avrdude done.  Thank you.
+Failed uploading: uploading error: exit status 1
+
+[2026-05-23 23:05:18.620][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 23:05:18.621][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:05:18.621][INFO] 刷新板卡列表...
+[2026-05-23 23:05:18.621][INFO] 获取板卡列表...
+[2026-05-23 23:05:18.622][INFO] 获取板卡列表...
+[2026-05-23 23:05:18.626][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:05:18.628][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:05:28.763][INFO] 找到 4 个端口
+[2026-05-23 23:05:28.764][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:05:28.764][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:05:28.880][INFO] 找到 4 个端口
+[2026-05-23 23:05:28.880][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:05:28.880][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:05:28.934][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:05:28.934][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 23:05:29.026][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:05:29.026][INFO] 加载了 0 个平台，4 个端口
+[2026-05-23 23:05:29.026][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:12:36.903][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 23:12:36.903][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:12:36.903][INFO] 刷新板卡列表...
+[2026-05-23 23:12:36.903][INFO] 获取板卡列表...
+[2026-05-23 23:12:36.903][INFO] 获取板卡列表...
+[2026-05-23 23:12:36.904][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:12:36.905][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:12:40.303][INFO] 找到 5 个端口
+[2026-05-23 23:12:40.303][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:12:40.303][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:12:40.304][INFO] 找到 5 个端口
+[2026-05-23 23:12:40.304][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:12:40.304][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:12:40.532][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:12:40.532][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 23:12:40.538][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:12:40.538][INFO] 加载了 0 个平台，5 个端口
+[2026-05-23 23:12:40.538][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:13:11.858][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 23:13:11.858][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:13:11.858][INFO] 刷新板卡列表...
+[2026-05-23 23:13:11.858][INFO] 获取板卡列表...
+[2026-05-23 23:13:11.859][INFO] 获取板卡列表...
+[2026-05-23 23:13:11.860][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:13:11.863][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:13:13.118][INFO] 找到 4 个端口
+[2026-05-23 23:13:13.118][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:13:13.118][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:13:13.120][INFO] 找到 4 个端口
+[2026-05-23 23:13:13.120][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:13:13.120][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:13:13.290][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:13:13.290][INFO] 加载了 0 个平台，4 个端口
+[2026-05-23 23:13:13.290][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:13:13.297][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:13:13.297][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 23:13:16.879][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 23:13:16.879][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:13:16.879][INFO] 刷新板卡列表...
+[2026-05-23 23:13:16.879][INFO] 获取板卡列表...
+[2026-05-23 23:13:16.880][INFO] 获取板卡列表...
+[2026-05-23 23:13:16.880][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:13:16.881][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:13:18.802][INFO] 找到 5 个端口
+[2026-05-23 23:13:18.802][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:13:18.802][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:13:18.823][INFO] 找到 5 个端口
+[2026-05-23 23:13:18.823][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:13:18.823][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:13:18.975][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:13:18.975][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 23:13:18.983][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:13:18.983][INFO] 加载了 0 个平台，5 个端口
+[2026-05-23 23:13:18.983][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:19:55.442][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 23:19:55.442][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:19:55.443][INFO] 刷新板卡列表...
+[2026-05-23 23:19:55.443][INFO] 获取板卡列表...
+[2026-05-23 23:19:55.444][INFO] 获取板卡列表...
+[2026-05-23 23:19:55.445][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:19:55.447][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:19:56.783][INFO] 找到 4 个端口
+[2026-05-23 23:19:56.783][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:19:56.784][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:19:56.786][INFO] 找到 4 个端口
+[2026-05-23 23:19:56.786][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:19:56.786][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:19:56.961][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:19:56.961][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 23:19:56.963][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:19:56.964][INFO] 加载了 0 个平台，4 个端口
+[2026-05-23 23:19:56.964][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:19:58.593][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 23:19:58.594][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:19:58.594][INFO] 刷新板卡列表...
+[2026-05-23 23:19:58.594][INFO] 获取板卡列表...
+[2026-05-23 23:19:58.594][INFO] 获取板卡列表...
+[2026-05-23 23:19:58.594][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:19:58.596][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:19:59.828][INFO] 找到 5 个端口
+[2026-05-23 23:19:59.828][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:19:59.828][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:19:59.830][INFO] 找到 5 个端口
+[2026-05-23 23:19:59.830][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:19:59.830][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:20:00.003][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:20:00.003][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 23:20:00.003][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:20:00.003][INFO] 加载了 0 个平台，5 个端口
+[2026-05-23 23:20:00.003][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:41:53.310][INFO] [BoardDiscovery] 端口移除: /dev/cu.usbmodem101
+[2026-05-23 23:41:53.311][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:41:53.311][INFO] 刷新板卡列表...
+[2026-05-23 23:41:53.311][INFO] 获取板卡列表...
+[2026-05-23 23:41:53.312][INFO] 获取板卡列表...
+[2026-05-23 23:41:53.313][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:41:53.315][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:41:54.803][INFO] 找到 4 个端口
+[2026-05-23 23:41:54.804][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:41:54.804][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:41:54.807][INFO] 找到 4 个端口
+[2026-05-23 23:41:54.807][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:41:54.807][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:41:54.975][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:41:54.975][INFO] 加载了 0 个平台，4 个端口
+[2026-05-23 23:41:54.976][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:41:54.982][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:41:54.983][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-23 23:42:00.220][INFO] [BoardDiscovery] 端口添加: /dev/cu.usbmodem101 - Arduino Uno
+[2026-05-23 23:42:00.221][INFO] [BoardDiscovery] 检测到端口变化，刷新板卡列表
+[2026-05-23 23:42:00.221][INFO] 刷新板卡列表...
+[2026-05-23 23:42:00.221][INFO] 获取板卡列表...
+[2026-05-23 23:42:00.221][INFO] 获取板卡列表...
+[2026-05-23 23:42:00.222][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:42:00.223][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board list --format json
+[2026-05-23 23:42:01.450][INFO] 找到 5 个端口
+[2026-05-23 23:42:01.450][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:42:01.450][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:42:01.452][INFO] 找到 5 个端口
+[2026-05-23 23:42:01.452][INFO] 获取所有已安装的板卡...
+[2026-05-23 23:42:01.453][INFO] 执行命令: "/Users/chimigyeltshen/Library/Application Support/Code/User/globalStorage/oakiot.vscode-arduino-cli/arduino-cli/arduino-cli" --config-dir /Users/chimigyeltshen/Desktop/ChimiPersonla/gps/.arduino-cli board listall --format json
+[2026-05-23 23:42:01.626][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:42:01.626][INFO] 加载了 0 个平台，5 个端口
+[2026-05-23 23:42:01.626][INFO] 从内存缓存获取板卡详情: arduino:avr:uno
+[2026-05-23 23:42:01.627][INFO] 找到 0 个已安装的板卡
+[2026-05-23 23:42:01.627][INFO] 加载了 0 个平台，共 0 个板卡
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[2026-05-24 00:36:37.730][FATAL] [Global] 未处理的 Promise Rejection: Git error
+  Stack: Error: Git error
+	at ChildProcess.o (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
