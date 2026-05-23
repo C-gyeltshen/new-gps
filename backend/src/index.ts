@@ -30,36 +30,36 @@ const app = new Hono()
 
 app.use('*', cors({ origin: '*' }))
 
-// POST /api/vehicle/location
-app.post('/api/vehicle/location', async (c) => {
-  const rawBody = await c.req.text()
-  console.log('[POST] raw body:', JSON.stringify(rawBody))
+app.get('/', (c) => {
+  return c.json({
+    ok: true,
+    service: 'GPS backend',
+    endpoints: [
+      'GET /health',
+      'GET /api/vehicles',
+      'GET /api/vehicle/location?vehicleId=VEHICLE_003&lat=27.4712&lng=89.6399',
+      'POST /api/vehicle/location',
+      'GET /api/vehicles/:vehicleNumber/latest',
+      'GET /api/vehicles/:vehicleNumber/history',
+      'GET /api/vehicles/:vehicleNumber/stream',
+    ],
+  })
+})
 
-  if (!rawBody || rawBody.trim() === '') {
-    return c.json({ error: 'Empty body' }, 400)
-  }
+app.get('/health', (c) => c.json({ ok: true }))
 
-  let body: Record<string, unknown>
-  try {
-    body = JSON.parse(rawBody)
-  } catch {
-    console.log('[POST] JSON parse failed for:', JSON.stringify(rawBody))
-    return c.json({ error: 'Invalid JSON', received: rawBody }, 400)
-  }
-
-  const { vehicleId, lat, lng, speed, altitude, satellites, heading } = body as {
-    vehicleId?: unknown; lat?: unknown; lng?: unknown
-    speed?: unknown; altitude?: unknown; satellites?: unknown; heading?: unknown
-  }
-
-  if (!vehicleId || typeof vehicleId !== 'string') {
-    return c.json({ error: 'vehicleId required' }, 400)
-  }
-  if (typeof lat !== 'number' || typeof lng !== 'number' || !isFinite(lat) || !isFinite(lng)) {
-    return c.json({ error: 'lat and lng must be finite numbers' }, 400)
-  }
-  if (lat < -90 || lat > 90) return c.json({ error: 'lat out of range [-90, 90]' }, 400)
-  if (lng < -180 || lng > 180) return c.json({ error: 'lng out of range [-180, 180]' }, 400)
+// Shared core — used by both GET and POST handlers
+async function saveLocation(
+  vehicleId: unknown, lat: unknown, lng: unknown,
+  speed: unknown, altitude: unknown, satellites: unknown, heading: unknown
+): Promise<{ ok: true; locationId: string } | { error: string; status: 400 }> {
+  if (!vehicleId || typeof vehicleId !== 'string')
+    return { error: 'vehicleId required', status: 400 }
+  const latN = Number(lat), lngN = Number(lng)
+  if (!Number.isFinite(latN) || !Number.isFinite(lngN))
+    return { error: 'lat and lng must be finite numbers', status: 400 }
+  if (latN < -90 || latN > 90)   return { error: 'lat out of range [-90, 90]', status: 400 }
+  if (lngN < -180 || lngN > 180) return { error: 'lng out of range [-180, 180]', status: 400 }
 
   const vehicle = await prisma.vehicle.upsert({
     where: { vehicleNumber: vehicleId },
@@ -70,26 +70,50 @@ app.post('/api/vehicle/location', async (c) => {
   const location = await prisma.location.create({
     data: {
       vehicleId: vehicle.id,
-      latitude: lat,
-      longitude: lng,
-      speed: speed !== undefined && speed !== null ? Number(speed) : null,
-      heading: heading !== undefined && heading !== null ? Number(heading) : null,
+      latitude: latN,
+      longitude: lngN,
+      speed:    (speed    != null && speed    !== '') ? Number(speed)    : null,
+      heading:  (heading  != null && heading  !== '') ? Number(heading)  : null,
     },
   })
 
-  const event = {
-    latitude: lat,
-    longitude: lng,
-    speed: speed !== undefined && speed !== null ? Number(speed) : null,
-    heading: heading !== undefined && heading !== null ? Number(heading) : null,
-    altitude: altitude !== undefined && altitude !== null ? Number(altitude) : null,
-    satellites: satellites !== undefined && satellites !== null ? Number(satellites) : null,
+  publish(vehicleId, {
+    latitude:   latN,
+    longitude:  lngN,
+    speed:      (speed     != null && speed     !== '') ? Number(speed)     : null,
+    heading:    (heading   != null && heading   !== '') ? Number(heading)   : null,
+    altitude:   (altitude  != null && altitude  !== '') ? Number(altitude)  : null,
+    satellites: (satellites != null && satellites !== '') ? Number(satellites) : null,
     recordedAt: location.recordedAt.toISOString(),
-  }
+  })
 
-  publish(vehicleId, event)
+  return { ok: true, locationId: location.id }
+}
 
-  return c.json({ ok: true, locationId: location.id })
+// GET /api/vehicle/location?vehicleId=X&lat=Y&lng=Z[&speed=S&altitude=A&satellites=N]
+// Used by SIM800C (AT+HTTPDATA is broken on old firmware; GET avoids body entirely)
+app.get('/api/vehicle/location', async (c) => {
+  const { vehicleId, lat, lng, speed, altitude, satellites, heading } = c.req.query()
+  console.log('[GET] query:', { vehicleId, lat, lng, speed })
+  const result = await saveLocation(vehicleId, lat, lng, speed, altitude, satellites, heading)
+  if ('status' in result) return c.json({ error: result.error }, result.status)
+  return c.json(result)
+})
+
+// POST /api/vehicle/location  (JSON body)
+app.post('/api/vehicle/location', async (c) => {
+  const rawBody = await c.req.text()
+  console.log('[POST] raw body:', JSON.stringify(rawBody))
+  if (!rawBody || rawBody.trim() === '') return c.json({ error: 'Empty body' }, 400)
+
+  let body: Record<string, unknown>
+  try { body = JSON.parse(rawBody) }
+  catch { return c.json({ error: 'Invalid JSON', received: rawBody }, 400) }
+
+  const { vehicleId, lat, lng, speed, altitude, satellites, heading } = body
+  const result = await saveLocation(vehicleId, lat, lng, speed, altitude, satellites, heading)
+  if ('status' in result) return c.json({ error: result.error }, result.status)
+  return c.json(result)
 })
 
 // GET /api/vehicles
