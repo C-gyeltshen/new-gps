@@ -32,8 +32,25 @@ app.use('*', cors({ origin: '*' }))
 
 // POST /api/vehicle/location
 app.post('/api/vehicle/location', async (c) => {
-  const body = await c.req.json()
-  const { vehicleId, lat, lng, speed, altitude, satellites, heading } = body
+  const rawBody = await c.req.text()
+  console.log('[POST] raw body:', JSON.stringify(rawBody))
+
+  if (!rawBody || rawBody.trim() === '') {
+    return c.json({ error: 'Empty body' }, 400)
+  }
+
+  let body: Record<string, unknown>
+  try {
+    body = JSON.parse(rawBody)
+  } catch {
+    console.log('[POST] JSON parse failed for:', JSON.stringify(rawBody))
+    return c.json({ error: 'Invalid JSON', received: rawBody }, 400)
+  }
+
+  const { vehicleId, lat, lng, speed, altitude, satellites, heading } = body as {
+    vehicleId?: unknown; lat?: unknown; lng?: unknown
+    speed?: unknown; altitude?: unknown; satellites?: unknown; heading?: unknown
+  }
 
   if (!vehicleId || typeof vehicleId !== 'string') {
     return c.json({ error: 'vehicleId required' }, 400)
@@ -55,8 +72,8 @@ app.post('/api/vehicle/location', async (c) => {
       vehicleId: vehicle.id,
       latitude: lat,
       longitude: lng,
-      speed: speed !== undefined && speed !== null ? speed : null,
-      heading: heading !== undefined && heading !== null ? heading : null,
+      speed: speed !== undefined && speed !== null ? Number(speed) : null,
+      heading: heading !== undefined && heading !== null ? Number(heading) : null,
     },
   })
 
